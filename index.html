@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="music-player">
+
+            <div class="music-player-top">
+                <div class="user-icon">
+                    <i class="bi bi-person-circle"></i>
+                </div>
+                <div class="search-icon">
+                    <i class="bi bi-search"></i>
+                </div>
+            </div>
+
+            <div class="music-player-center">
+                <div class="music-player-disc">
+                    <img src="data:image/jpeg;base64,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">
+                </div>
+                <div class="music-player-bar">
+                    <i class="bi bi-music-note-list"></i>
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-lightning-charge"></i>
+                </div>
+            </div>
+           
+            <div class="music-player-song">
+                <h1>ANAVITÓRIA</h1>
+                <span>Tenta acreditar</span>
+            </div>
+
+            <div class="music-player-line">
+                <div class="music-player-line-a">
+                    <span class="min-1">1:20</span>
+                    <div class="line"></div>
+                    <span class="min-2">4:17</span>
+                </div>
+                <div class="music-player-line-b">
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="music-player-controls">
+                <i class="bi bi-shuffle"></i>
+                <i class="bi bi-caret-left-fill"></i>
+                <i class="bi bi-pause-circle-fill"></i>
+                <i class="bi bi-caret-right-fill"></i>
+                <i class="bi bi-repeat-1"></i>
+            </div>
+            
+        </div>
+        </div>
+</body>
+</html>
